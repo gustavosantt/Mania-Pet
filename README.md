@@ -24,12 +24,13 @@ Para visualizar o projeto localmente, siga estas etapas:
 
 1. **Clone o repositório**:
 
-3. **Estrutura do Projeto**;
+## Estrutura do Projeto
+
 O projeto está organizado da seguinte forma:
 
-index.html: Página principal do site.
-css/: Pasta contendo arquivos de estilo CSS.
-style.css: Arquivo principal de estilos.
-js/: Pasta contendo arquivos JavaScript.
-scripts.js: Arquivo principal para interatividade.
-images/: Pasta com imagens utilizadas no site.
+- **index.html**: Página principal do site.
+- **css/**: Pasta contendo arquivos de estilo CSS.
+  - **style.css**: Arquivo principal de estilos.
+- **js/**: Pasta contendo arquivos JavaScript.
+  - **scripts.js**: Arquivo principal para interatividade.
+- **images/**: Pasta com imagens utilizadas no site.
