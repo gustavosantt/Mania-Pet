@@ -1,0 +1,141 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.Logotipo {
+
+    font-size: 30px;
+    color: #FFFF;
+}
+.interface{
+    
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.Top-header > .interface{
+
+ display: flex;
+ align-items: center;
+ justify-content: space-between ;
+
+}
+.Btn-social{
+
+    border-radius: 100px;
+}
+
+header{
+
+    width: 100%;
+    background-color: #5f4016;
+}
+
+.Top-header{
+
+    background-color: #062149;
+    padding: 20px 4%;
+
+}
+
+.bottom-header nav ul{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.bottom-header nav ul li a{
+    color: #FFFF;
+    padding: 20px 40px;
+    text-decoration: none;
+    display: block;
+    
+}
+.bottom-header nav ul li a:hover{
+
+    color: #f3f3f3;
+    box-shadow: inset 0 0 8px #f0eeee;
+    
+}
+.Menu-hover{
+    position: relative;
+
+
+}
+
+
+.Menu-hover .drop{
+    position: absolute;
+    background-color: #5f4016;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    
+}
+
+.Menu-hover .drop a {
+    padding: 20px;
+}
+
+.Menu-hover:hover .drop{
+
+    height: 250px;
+
+}
+
+/*estilização do carrosel*/
+
+
+
+.slider{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+.sliders{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+.sliders  input{
+    display: none;
+}
+.sliders{
+    width: 25%;
+    position: relative;
+}
+
+.slider img{
+    width: 800px;
+    
+}
+
+.manual-navegation{
+    position: absolute;
+    bottom: 10px; /* Ajuste a posição vertical para cima */
+    width: 100%;
+    text-align: center;
+    z-index: 10; /* Garante que os botões estejam sobre as imagens */
+}
+
+
+.manual-btn{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1 0px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(77, 16, 16);
+    border-radius: 80% ;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
