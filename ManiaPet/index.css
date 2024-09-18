@@ -1,14 +1,30 @@
 *{
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     
 }
+
+body{
+
+     /*background-color: rgb(187, 38, 51);*/
+}
 .Logotipo {
 
     font-size: 30px;
-    color: #FFFF;
+    color: #0000;
+}
+.Logotipo img {
+    display: flex;
+    width: 100px;
+    background: transparent;
+}
+.Btn-social{
+    display: flex;
+    justify-content: flex-end;
+    width: 0px;
+    height: 100px;
+    background: transparent;
 }
 .interface{
     
@@ -30,12 +46,12 @@
 header{
 
     width: 100%;
-    background-color: #5f4016;
+    background-color: #94562b;
 }
 
 .Top-header{
 
-    background-color: #062149;
+    background-color: #209bd8d8;
     padding: 20px 4%;
 
 }
@@ -93,7 +109,7 @@ header{
 
 .slider{
     margin: 0 auto;
-    width: 800px;
+    /*width: 800px;*/
     height: 400px;
     overflow: hidden;
 }
@@ -139,3 +155,34 @@ header{
 .manual-btn:not(:last-child){
     margin-right: 40px;
 }
+ /*Cards de venda*/
+
+ .card {
+    display: grid;
+    padding: 50px;
+    width: 330px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Branco com 80% opacidade */
+   /* border: 3px solid rgba(0, 0, 0, 0.5);  Preto com 50% opacidade */
+}
+
+.card h3{
+    text-align: center;
+}
+
+.card img {
+    display: flex;
+    width: 215px;
+    height: 235px;
+}
+.card button{
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+
+}
+.card button:hover {
+        background-color: #397de2;
+}   
