@@ -277,3 +277,11 @@ section .slider {
 .card button:hover {
     background-color: #397de2;
 }
+
+/*Estilização rodape*/
+
+footer{
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(90deg, #209bd8d8, #94562b );
+}
