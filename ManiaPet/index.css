@@ -248,12 +248,12 @@ section .slider {
     display: grid;
     padding: 50px;
     width: 330px;
+    z-index: -1;
     height: 400px;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 3px solid green;
-    /* Branco com 80% opacidade */
-    /* border: 3px solid rgba(0, 0, 0, 0.5);  Preto com 50% opacidade */
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    /*border: 3px solid green; */
+    background: linear-gradient(60deg, #209bd8d8, #94562b );
 }
 
 .card h3 {
