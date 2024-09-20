@@ -22,7 +22,25 @@ body {
     justify-content: right;
     align-items: flex-end;
     margin: 0;
-    
+
+}
+ /*Lupa pesquisa */
+.Barra-pesquisa{
+
+    font-size: 30px;
+    border: 20px;
+    border-radius: 15px;
+    background-color: transparent;
+    color: rgb(12, 10, 10);
+
+}
+
+.Barra-pesquisa img{
+
+    height: 20px;
+    width: 20px;
+
+
 }
 
 .Btn-social {
@@ -276,7 +294,7 @@ section .slider {
     display: flex;
     justify-content: space-evenly;
     padding: 15px;
-   
+
 
 }
 
@@ -321,21 +339,23 @@ section .slider {
 
 /*Banner interação*/
 
- .Banner-interacao{
+.Banner-interacao {
 
     width: 100%;
     padding: 80px;
     height: 700px;
     border-radius: 100px;
-    
- }
+
+}
+
 /*Intro-final*/
 
-.Intro-final{
+.Intro-final {
 
     display: flex;
 
 }
+
 .Intro-final img {
 
     width: 50%;
@@ -348,7 +368,7 @@ section .slider {
     padding: 8px;
 }
 
-.Intro-final button{
+.Intro-final button {
 
     padding: 0px;
 }
@@ -361,7 +381,7 @@ footer {
     height: 300px;
     background: linear-gradient(60deg, black, #209bd8d8, #d8996c, #0000);
     justify-content: center;
-    
+
 
 
 }
