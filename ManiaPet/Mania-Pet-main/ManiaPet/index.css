@@ -329,6 +329,30 @@ section .slider {
     border-radius: 100px;
     
  }
+/*Intro-final*/
+
+.Intro-final{
+
+    display: flex;
+
+}
+.Intro-final img {
+
+    width: 50%;
+    height: 500px;
+}
+
+.Intro-final p {
+
+    font-size: 20px;
+    padding: 8px;
+}
+
+.Intro-final button{
+
+    padding: 0px;
+}
+
 
 /*Estilização rodape*/
 
@@ -337,6 +361,7 @@ footer {
     height: 300px;
     background: linear-gradient(60deg, black, #209bd8d8, #d8996c, #0000);
     justify-content: center;
+    
 
 
 }
@@ -347,5 +372,6 @@ footer {
     margin: 60px;
     padding: 20px;
     text-align: left;
+    color: white;
 
 }
