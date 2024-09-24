@@ -5,7 +5,29 @@
 
 }
 
+
+header {
+
+    width: 100%;
+    background: linear-gradient(40deg, black, #209bd8d8, #d8996c, #0000);
+    height: 150px;
+}
+
+.Logotipo img{
+    display: grid;
+    position: relative;
+    border-radius: 100px;
+    width: 100px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0;
+    padding: 30px;
+}
+
+
 .Carrinho{
+
+    
     display: grid;
     height: 80px;
     width: 50%;
