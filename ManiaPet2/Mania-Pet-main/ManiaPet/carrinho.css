@@ -24,41 +24,42 @@ header {
     padding: 30px;
 }
 
-
-.Carrinho{
-
+.Titulo{
     
-    display: grid;
-    height: 80px;
-    width: 50%;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0px;
-
-    background-color: rgb(173, 124, 17);
+    font-size: 30px;
+    width: 100% ;
+    padding: 40px;
     color: rgb(0, 0, 0);
-    border: 0;
-
-}
-.titulo-carrinho{
-
-    margin-top: 20px ;
-    align-items: center;
     text-align: center;
-   
-
+    height: 10px;
+    margin-top: 50px;
 }
 
-.Produtos{
+.carrinho{
+
+    margin-top: 15px;
 
     display: flex;
-    justify-content: flex-start;
+}
 
-    
+section{
 
-   
-    
+    flex: 1;
+}
 
+table{
+
+    width: 100%;
+}
+
+th{
+
+    text-align: left;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgb(65, 63, 63);
+    padding: 10px;
+}
+aside{
+
+    background-color: red;
 }
