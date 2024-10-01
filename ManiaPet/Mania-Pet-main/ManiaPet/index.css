@@ -157,6 +157,7 @@ header {
     width: 100%;
     height: 0;
     overflow: hidden;
+    z-index: 1000
 
 }
 
@@ -374,6 +375,7 @@ section .slider {
     align-items: center;
     justify-content: center;
     font-size: 23px;
+    cursor: pointer;
 
 }
 
@@ -439,17 +441,23 @@ footer {
     height: 300px;
     background: linear-gradient(60deg, black, #209bd8d8, #d8996c, #0000);
     justify-content: center;
+    margin-top: 90px;
 
 
 
 }
 
-
 .lista-sobre {
     font-size: 30px;
     margin: 60px;
     padding: 20px;
-    text-align: left;
     color: white;
+    margin-top: -140px;
+    text-align: center;
 
+}
+
+section  img{
+
+    width: 100px;
 }

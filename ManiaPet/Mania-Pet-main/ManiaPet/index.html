@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Casa Pet</title>
     <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
 </head>
 
 <body>
@@ -19,14 +20,15 @@
 
                 <div class="Barra-pesquisa">
                     <input type="text" class="Barra-pesquisa" placeholder="Pesquisar">
-                    <a href="https://www.flaticon.com/free-icon/loupe_622669?term=search&page=1&position=2&page=1&position=2&related_id=622669&origin=search">
-                    <img src="imagens/Lupa.png" alt="">
+                    <a
+                        href="https://www.flaticon.com/free-icon/loupe_622669?term=search&page=1&position=2&page=1&position=2&related_id=622669&origin=search">
+                        <img src="imagens/Lupa.png" alt="">
                     </a>
                 </div>
 
                 <div class="Carrinho">
-                   <a href="carrinho.html"> <img src="imagens/carrinho-de-compras.png" alt=""> </a>
-                
+                    <a href="carrinho.html"> <img src="imagens/carrinho-de-compras.png" alt=""> </a>
+
                 </div>
             </div>
             </div>
@@ -93,11 +95,11 @@
 
 
     <!--Banner-->
-    
+
     <div class="Banner">
         <h4>Parcelamento Cartão</h4> <img src="imagens/favicon cartao-de-credito.png" alt="">
         <h4>Serviço de Entrega</h4> <img src="imagens/Icon caminhão frete.jpg" alt="">
-        <h4>As melhores marcas do Mercado</h4> 
+        <h4>As melhores marcas do Mercado</h4>
         <h4>Retire em nossa Loja Fisica.</h4> <img src="imagens/favicon loja.png" alt="">
 
     </div>
@@ -109,121 +111,96 @@
     <section>
         <div class="container">
             <div class="card">
-                <img src="imagens/Racao gato 3.webp" alt="">
-                <P><strong>Ração Me Gusta Gatos Adultos Sabor Frango e Salmão</strong></P>
-                <H3>R$ 110,00</H3>
-                <button id="comp">Adicionar ao carrinho</button>
+                <img src="imagens/Racao gato 3.webp" alt="Ração Me Gusta Gatos">
+                <p><strong>Ração Me Gusta Gatos Adultos Sabor Frango e Salmão</strong></p>
+                <h3>R$ 110,00</h3>
+                <button class="adicionar-carrinho" data-nome="Ração Me Gusta Gatos" data-preco="110"
+                    data-img="imagens/Racao gato 3.webp">Adicionar ao carrinho</button>
             </div>
 
             <div class="card">
-                <img src="imagens/Comedorou 1.webp" alt="">
-                <P><strong>Comedouro Bebedouro Duplo Tigela Ração Água Pet Cachorro gato</strong></P>
-                <H3>R$ 70,00</H3>
-                <button id="comp">Adicionar ao carrinho</button>
+                <img src="imagens/Comedorou 1.webp" alt="Comedouro Bebedouro Duplo">
+                <p><strong>Comedouro Bebedouro Duplo Tigela Ração Água Pet Cachorro gato</strong></p>
+                <h3>R$ 70,00</h3>
+                <button class="adicionar-carrinho" data-nome="Comedouro Bebedouro Duplo" data-preco="70"
+                    data-img="imagens/Comedorou 1.webp">Adicionar ao carrinho</button>
             </div>
 
             <div class="card">
-                <img src="imagens/Remedio gato 1.webp" alt="">
-                <P><strong>Vermífugo Petzi Gatos 4 comprimidos</strong></P>
-                <H3>R$ 54,50</H3>
-                <button id="comp">Adicionar ao carrinho</button>
+                <img src="imagens/Remedio gato 1.webp" alt="Vermífugo Petzi Gatos">
+                <p><strong>Vermífugo Petzi Gatos 4 comprimidos</strong></p>
+                <h3>R$ 54,50</h3>
+                <button class="adicionar-carrinho" data-nome="Vermífugo Petzi Gatos" data-preco="54.50"
+                    data-img="imagens/Remedio gato 1.webp">Adicionar ao carrinho</button>
             </div>
-
-
-
+        </div>
 
         </div>
     </section>
-    
-        
-        
 
-    <section>
-        <div class="container">
-            
-            <div class="card">
-                <img src="imagens/casa de cachorro 1.webp" alt="">
-                <P><strong>Casa Para Cachorro Gato Preto Porte N2 Pequeno Resistente - MecPet</strong></P>
-                <H3>R$ 50,00</H3>
-                <button id="comp">Adicionar ao carrinho</button>
-            </div>
-
-            <div class="card">
-                <img src="imagens/Ração gato 1.png" alt="">
-                <P><strong>Ração PremieR Ambientes Internos para Gatos Adultos Castrados 12+ Frango 1,5Kg</strong></P>
-                <H3>R$ 30,00</H3>
-                <button id="comp">Adicionar ao carrinho</button>
-            </div>
-
-            <div class="card">
-                <img src="imagens/racao gato 2.webp" alt="">
-                <P><strong>Ração Seca Premier Pet Golden Gato Castrado Frango 10,1kg</strong></P>
-                <H3>R$ 170,00</H3>
-                <button id="comp">Adicionar ao carrinho</button>
-            </div>
-
-
-        </div>
-    </section>
     <section>
         <div class="container">
             <div class="card">
                 <img src="imagens/Suplemento 1.webp" alt="">
-                <P><strong>Suplemento Cachorro Grande Dog Protein Hiperprotéico Canino Ativador Genético</strong></P>
-                <H3>R$ 130,00</H3>
-                <button id="comp">Adicionar ao carrinho</button>
+                <p><strong>Suplemento Cachorro Grande Dog Protein Hiperprotéico Canino Ativador Genético</strong></p>
+                <h3>R$ 130,00</h3>
+                <button class="adicionar-carrinho" data-nome="Suplemento Cachorro Grande" data-preco="130"
+                    data-imagem="Suplemento 1.webp">Adicionar ao carrinho</button>
             </div>
 
             <div class="card">
                 <img src="imagens/Suplemento gato 1.webp" alt="">
-                <P><strong>Suplemento Organnact Promun Cat para Gatos</strong></P>
-                <H3>R$ 82,00</H3>
-                <button id="comp">Adicionar ao carrinho</button>
+                <p><strong>Suplemento Organnact Promun Cat para Gatos</strong></p>
+                <h3>R$ 82,00</h3>
+                <button class="adicionar-carrinho" data-nome="Suplemento Organnact Cat" data-preco="82"
+                    data-imagem="imagens/Suplemento gato 1.webp">Adicionar ao carrinho</button>
             </div>
 
             <div class="card">
                 <img src="imagens/Coleira cachorro 1.jpg" alt="">
-                <P><strong>Coleira para Cachorro com Nome e Telefone - Courino Matelassê Macio Rosa Pink - Metais Niquelados</strong></P>
-                <H3>R$ 70,00</H3>
-                <button id="comp">Adicionar ao carrinho</button>
+                <p><strong>Coleira para Cachorro com Nome e Telefone - Courino Matelassê Macio Rosa Pink - Metais
+                        Niquelados</strong></p>
+                <h3>R$ 70,00</h3>
+                <button class="adicionar-carrinho" data-nome="Coleira Cachorro" data-preco="70"
+                    data-imagem="imagens/Coleira cachorro 1.jpg">Adicionar ao carrinho</button>
             </div>
-
-
         </div>
     </section>
+
     <section>
         <div class="container">
-            
             <div class="card">
                 <img src="imagens/Suplemento 2.webp" alt="">
-                <P><strong>Suplemento Para Cachorro Filhotes Ganho Massa Muscular 1,2kg</strong></P>
-                <H3>R$ 110,00</H3>
-                <button id="comp">Adicionar ao carrinho</button>
+                <p><strong>Suplemento Para Cachorro Filhotes Ganho Massa Muscular 1,2kg</strong></p>
+                <h3>R$ 110,00</h3>
+                <button class="adicionar-carrinho" data-nome="Suplemento Para Cachorro Filhotes" data-preco="110"
+                    data-imagem="imagens/Suplemento 2.webp">Adicionar ao carrinho</button>
             </div>
 
             <div class="card">
                 <img src="imagens/Casa para gato 1.webp" alt="">
-                <P><strong>Casinha De Gato Com Carpete Aconchegante Felinos - Casa rosa</strong></P>
-                <H3>R$ 90,00</H3>
-                <button id="comp">Adicionar ao carrinho</button>
+                <p><strong>Casinha De Gato Com Carpete Aconchegante Felinos - Casa rosa</strong></p>
+                <h3>R$ 90,00</h3>
+                <button class="adicionar-carrinho" data-nome="Casinha de Gato" data-preco="90"
+                    data-imagem="imagens/Casa para gato 1.webp">Adicionar ao carrinho</button>
             </div>
 
             <div class="card">
                 <img src="imagens/Coleira gato 1.jpg" alt="">
-                <P><strong>Coleira de Gato Azul Estrelinhas - com Pingente Inox</strong></P>
-                <H3>R$ 25,00</H3>
-                <button id="comp">Adicionar ao carrinho</button>
+                <p><strong>Coleira de Gato Azul Estrelinhas - com Pingente Inox</strong></p>
+                <h3>R$ 25,00</h3>
+                <button class="adicionar-carrinho" data-nome="Coleira de Gato" data-preco="25"
+                    data-imagem="imagens/Coleira gato 1.jpg">Adicionar ao carrinho</button>
             </div>
-
-
         </div>
+    </section>
     </section>
 
     <!--Banner de interaçao-->
 
     <img src="imagens/Banner interação 2.jpg" class="Banner-interacao">
 
-    
+
 
     <!--Introdução final-->
 
@@ -233,10 +210,13 @@
             <img src="imagens/Banner interação.jpg" alt="">
             <p>Casa Pet Loja
                 Muito prazer! Somos a Casa Pet Loja, uma loja online especializada em artigos para Animais de Estimação.
-                
-                <br><br> O bem estar animal é primordial para que eles desfrutem de uma vida longa e feliz, por isso é fundamental investir em produtos que aumentem a sua qualidade de vida! Aqui na Casa Pet Loja você encontra!
-                
-                Você tem alguma dúvida? Entre em contato, será um imenso prazer!</p> </br></br>
+
+                <br><br> O bem estar animal é primordial para que eles desfrutem de uma vida longa e feliz, por isso é
+                fundamental investir em produtos que aumentem a sua qualidade de vida! Aqui na Casa Pet Loja você
+                encontra!
+
+                Você tem alguma dúvida? Entre em contato, será um imenso prazer!
+            </p> </br></br>
 
         </div>
     </section>
@@ -244,18 +224,26 @@
     <!--Rodapé -->
 
     <footer>
-        <div class="Rodape">
-            <ul class="lista-sobre">
-                <h4>Mais sobre a gente</h4>
-                <li>Sobre nós</li>
-                <li>Politica de frete</li>
-                <li>Trabahe Conosco</li>
-                <li>Desenvolvedores</li>
-                <li>E-mail: <br> <strong>Maniapet@casapet.com.br</strong></li>
-            </ul>
 
-        </div>
+        <section class="Redessociais">
+            <div class="Rede">
+                <h4>Redes Sociais</h4>
+                <img src="imagens/Comedorou 1.webp" alt="">
+            </div>
 
+
+            <div class="Rodape">
+                <ul class="lista-sobre">
+                    <h4>Mais sobre a gente</h4>
+                    <li>Sobre nós</li>
+                    <li>Politica de frete</li>
+                    <li>Trabahe Conosco</li>
+                    <li>Desenvolvedores</li>
+                    <li>E-mail: <br> <strong>Maniapet@casapet.com.br</strong></li>
+                </ul>
+
+            </div>
+        </section>
     </footer>
 
 
