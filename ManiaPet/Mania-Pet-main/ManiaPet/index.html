@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Pet</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <!--Menu principal ( Cabeçalho)-->
+    <Header>
+        <section class="Top-header">
+            <div class="interface">
+                <div class="Logotipo">
+                    <a href="index.html"><img src="imagens/Logo.PNG" alt="index.html"> </a>
+                </div>
+
+                <div class="Barra-pesquisa">
+                    <input type="text" class="Barra-pesquisa" placeholder="Pesquisar">
+                    <a
+                        href="https://www.flaticon.com/free-icon/loupe_622669?term=search&page=1&position=2&page=1&position=2&related_id=622669&origin=search">
+                        <img src="imagens/Lupa.png" alt="">
+                    </a>
+                </div>
+
+                <div class="Carrinho">
+                    <a href="carrinho.html"> <img src="imagens/carrinho-de-compras.png" alt=""> </a>
+
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!--Menu secundario, abaixo da logo-->
+        <section class="bottom-header">
+            <nav>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/Mania-Pet-main/ManiaPet/VendasDog.html">Cães</a> </li>
+                    <li><a href="index.html">Gatos</a> </li>
+                    <li class="Menu-hover"><a href="#">Produto</a>
+                        <div class="drop">
+                            <a href="index.html">Em desenvolvimento</a>
+                            <a href="index.css">Em desenvolvimento</a>
+                            <a href="index.css">Em desenvolvimento</a>
+                            <a href="index.css">Em desenvolvimento</a>
+                        </div>
+                    </li>
+                    <li><a href="index.html">Casa e Jardim</a> </li>
+
+                </ul>
+
+            </nav>
+        </section>
+
+    </Header>
+
+    <!--Carrosel
+    
+    <section class="slider">
+        <div class="slider-content">
+            <input type="radio" name="btn-radio" id="radio1">
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+
+            <div class="slider-box">
+                <img src="imagens/img 1.jpg" alt="img1">
+            </div>
+
+            <div class="slider-box">
+                <img src="imagens/img 2.jpg" alt="img2">
+            </div>
+
+            <div class="slider-box"></div>
+                <img src="imagens/img 3.jpg" alt="img3"> 
+            </div>
+            
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>   
+            </div>
+
+            <div class="nav-manual"></div>
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+
+            </div>
+
+        </div>
+    </section>-->
+
+
+    <!--Banner-->
+
+    <div class="Banner">
+        <h4>Parcelamento Cartão</h4> <img src="imagens/favicon cartao-de-credito.png" alt="">
+        <h4>Serviço de Entrega</h4> <img src="imagens/Icon caminhão frete.jpg" alt="">
+        <h4>As melhores marcas do Mercado</h4>
+        <h4>Retire em nossa Loja Fisica.</h4> <img src="imagens/favicon loja.png" alt="">
+
+    </div>
+
+
+
+
+    <!--cards de venda -->
+    <section>
+        <div class="container">
+            <div class="card">
+                <img src="imagens/Racao gato 3.webp" alt="Ração Me Gusta Gatos">
+                <p><strong>Ração Me Gusta Gatos Adultos Sabor Frango e Salmão</strong></p>
+                <h3>R$ 110,00</h3>
+                <button class="adicionar-carrinho" data-nome="Ração Me Gusta Gatos" data-preco="110"
+                    data-img="imagens/Racao gato 3.webp">Adicionar ao carrinho</button>
+            </div>
+
+            <div class="card">
+                <img src="imagens/Comedorou 1.webp" alt="Comedouro Bebedouro Duplo">
+                <p><strong>Comedouro Bebedouro Duplo Tigela Ração Água Pet Cachorro gato</strong></p>
+                <h3>R$ 70,00</h3>
+                <button class="adicionar-carrinho" data-nome="Comedouro Bebedouro Duplo" data-preco="70"
+                    data-img="imagens/Comedorou 1.webp">Adicionar ao carrinho</button>
+            </div>
+
+            <div class="card">
+                <img src="imagens/Remedio gato 1.webp" alt="Vermífugo Petzi Gatos">
+                <p><strong>Vermífugo Petzi Gatos 4 comprimidos</strong></p>
+                <h3>R$ 54,50</h3>
+                <button class="adicionar-carrinho" data-nome="Vermífugo Petzi Gatos" data-preco="54.50"
+                    data-img="imagens/Remedio gato 1.webp">Adicionar ao carrinho</button>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="card">
+                <img src="imagens/Suplemento 1.webp" alt="">
+                <p><strong>Suplemento Cachorro Grande Dog Protein Hiperprotéico Canino Ativador Genético</strong></p>
+                <h3>R$ 130,00</h3>
+                <button class="adicionar-carrinho" data-nome="Suplemento Cachorro Grande" data-preco="130"
+                    data-imagem="Suplemento 1.webp">Adicionar ao carrinho</button>
+            </div>
+
+            <div class="card">
+                <img src="imagens/Suplemento gato 1.webp" alt="">
+                <p><strong>Suplemento Organnact Promun Cat para Gatos</strong></p>
+                <h3>R$ 82,00</h3>
+                <button class="adicionar-carrinho" data-nome="Suplemento Organnact Cat" data-preco="82"
+                    data-imagem="imagens/Suplemento gato 1.webp">Adicionar ao carrinho</button>
+            </div>
+
+            <div class="card">
+                <img src="imagens/Coleira cachorro 1.jpg" alt="">
+                <p><strong>Coleira para Cachorro com Nome e Telefone - Courino Matelassê Macio Rosa Pink - Metais
+                        Niquelados</strong></p>
+                <h3>R$ 70,00</h3>
+                <button class="adicionar-carrinho" data-nome="Coleira Cachorro" data-preco="70"
+                    data-imagem="imagens/Coleira cachorro 1.jpg">Adicionar ao carrinho</button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="card">
+                <img src="imagens/Suplemento 2.webp" alt="">
+                <p><strong>Suplemento Para Cachorro Filhotes Ganho Massa Muscular 1,2kg</strong></p>
+                <h3>R$ 110,00</h3>
+                <button class="adicionar-carrinho" data-nome="Suplemento Para Cachorro Filhotes" data-preco="110"
+                    data-imagem="imagens/Suplemento 2.webp">Adicionar ao carrinho</button>
+            </div>
+
+            <div class="card">
+                <img src="imagens/Casa para gato 1.webp" alt="">
+                <p><strong>Casinha De Gato Com Carpete Aconchegante Felinos - Casa rosa</strong></p>
+                <h3>R$ 90,00</h3>
+                <button class="adicionar-carrinho" data-nome="Casinha de Gato" data-preco="90"
+                    data-imagem="imagens/Casa para gato 1.webp">Adicionar ao carrinho</button>
+            </div>
+
+            <div class="card">
+                <img src="imagens/Coleira gato 1.jpg" alt="">
+                <p><strong>Coleira de Gato Azul Estrelinhas - com Pingente Inox</strong></p>
+                <h3>R$ 25,00</h3>
+                <button class="adicionar-carrinho" data-nome="Coleira de Gato" data-preco="25"
+                    data-imagem="imagens/Coleira gato 1.jpg">Adicionar ao carrinho</button>
+            </div>
+        </div>
+    </section>
+    </section>
+
+    <!--Banner de interaçao-->
+
+    <img src="imagens/Banner interação 2.jpg" class="Banner-interacao">
+
+
+
+    <!--Introdução final-->
+
+    <section>
+        <div class="Intro-final">
+
+            <img src="imagens/Banner interação.jpg" alt="">
+            <p>Casa Pet Loja
+                Muito prazer! Somos a Casa Pet Loja, uma loja online especializada em artigos para Animais de Estimação.
+
+                <br><br> O bem estar animal é primordial para que eles desfrutem de uma vida longa e feliz, por isso é
+                fundamental investir em produtos que aumentem a sua qualidade de vida! Aqui na Casa Pet Loja você
+                encontra!
+
+                Você tem alguma dúvida? Entre em contato, será um imenso prazer!
+            </p> </br></br>
+
+        </div>
+    </section>
+
+    <!--Rodapé -->
+
+    <footer>
+            <section class="Redessociais">
+                <div class="Rodape">
+                    <ul class="lista-sobre">
+                        <h4>Mais sobre a gente</h4>
+                        <li>Sobre nós</li>
+                        <li>Política de frete</li>
+                        <li>Trabalhe Conosco</li>
+                        <li>Desenvolvedores</li>
+                        <li>E-mail: <br><strong>Maniapet@casapet.com.br</strong></li>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3754.3791345176905!2d-43.94822932644546!3d-19.78151613369867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa68f6187e04c5d%3A0x6f5ea67c3a496658!2sR.%20Araguacema%2C%20673%20-%20S%C3%A3o%20Cosme%20de%20Baixo%20(S%C3%A3o%20Benedito)%2C%20Santa%20Luzia%20-%20MG%2C%2033130-190!5e0!3m2!1spt-BR!2sbr!4v1727786344906!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </ul>
+                </div>
+                <div class="Redes">
+                    <h4>Redes Sociais</h4>
+                    <div class="imagens-rede">
+                        <img src="imagens/instagram_4494488.png" alt="">
+                        <img src="imagens/instagram_4494488.png" alt="">
+                        <img src="imagens/instagram_4494488.png" alt="">
+                        
+                </div>
+            </section>
+        </footer>
+</body>
+
+</html>
